@@ -11,5 +11,8 @@ class BlackJack
 	public: 
 		BlackJack(DealerPlayer* dealer, MainPlayer* player, Deck* deck);
 		void playHand();
+		void dealCard(Deck* deck, Hand* hand);
+		void printWinner(Hand* dealer, Hand* player);
+		void displayHands(Hand* dealer, Hand* play);
 };
 

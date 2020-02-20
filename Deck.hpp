@@ -16,5 +16,6 @@ class Deck
 		void shuffle();
 		Card* dealCard();
 		int getCardsLeft();
+		bool isEmpty();
 };
 

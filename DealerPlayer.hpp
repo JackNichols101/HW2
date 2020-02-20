@@ -6,7 +6,7 @@ class DealerPlayer : public Player
 
 	public: 
 		DealerPlayer();
-		void wantHit(Hand mainHand, Hand dealerHand);
+		void wantHit(Hand* mainHand, Hand* dealerHand);
 
 };
 

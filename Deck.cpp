@@ -53,3 +53,6 @@ int Deck::getCardsLeft()
 {
 	return cardsLeft;
 }
+bool Deck::isEmpty() {
+	return (cardsLeft == 0);
+}
