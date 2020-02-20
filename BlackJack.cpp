@@ -9,5 +9,5 @@ BlackJack::BlackJack(DealerPlayer* dealer,MainPlayer* player,Deck* deck)
 
 void BlackJack::playHand()
 {
-
+	deck->shuffle();
 }
