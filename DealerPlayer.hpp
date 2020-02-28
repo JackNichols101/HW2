@@ -1,5 +1,11 @@
 #pragma once
-class DealerPlayer
+#include "Player.hpp"
+class DealerPlayer : public Player
 {
+	private:
+
+	public: 
+		bool wantHit(Hand* mainHand, Hand* dealerHand);
+
 };
 

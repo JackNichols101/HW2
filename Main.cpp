@@ -11,6 +11,7 @@ int main()
 	DealerPlayer* dealer = new DealerPlayer();
 	MainPlayer* player = new MainPlayer();
 	BlackJack* game = new BlackJack(dealer, player, deck);
+	//game->playHand();
 
 	std::string input = "y";
 	while(input == "y")

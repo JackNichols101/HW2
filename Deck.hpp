@@ -14,5 +14,8 @@ class Deck
 		~Deck();
 		void reset();
 		void shuffle();
+		Card* dealCard();
+		int getCardsLeft();
+		bool isEmpty();
 };
 
